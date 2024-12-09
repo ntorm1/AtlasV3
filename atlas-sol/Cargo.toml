@@ -1,0 +1,16 @@
+[package]
+name="atlas-sol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+toml = {workspace=true}
+atlas-core = {workspace=true}
+agave-geyser-plugin-interface = "2.1.4"
+crossbeam = {version="0.8.4"}
+log.workspace = true
+tokio={workspace=true}
+serde = {workspace=true}
+serde_json={workspace=true}
+solana-sdk={workspace=true}
+solana-client = "2.1.5"

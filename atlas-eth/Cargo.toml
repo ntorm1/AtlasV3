@@ -1,0 +1,13 @@
+[package]
+name="atlas-eth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = {workspace=true}
+toml = {workspace=true}
+atlas-core = {workspace=true}
+thiserror = {workspace=true}
+rand = {workspace=true}
+alloy-primitives = "0.8.14"
+alloy = "0.7.2"

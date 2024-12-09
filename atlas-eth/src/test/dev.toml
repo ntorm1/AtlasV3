@@ -1,0 +1,19 @@
+[server]
+https_url = "http://localhost:8545"
+wss_url = "ws://localhost:8546"
+
+[bot]
+address = "..."
+private_key = "..."
+identity_key = "..."
+
+[telegram]
+token = "..."
+chat_id = "..."
+
+[settings]
+use_alert = false
+debug = true
+
+[environment]
+rust_backtrace = 1

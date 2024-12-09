@@ -1,0 +1,25 @@
+[workspace]
+members = [
+    "atlas-core",
+    "atlas-eth",
+    "atlas-sol",
+    "atlas-sol2"
+]
+
+resolver = "2"
+
+[workspace.package]
+version = "0.0.1"
+
+[workspace.dependencies]
+serde = { version = "1.0.215", features = ["derive", "alloc"] }
+serde_json = "1.0.133"
+toml = "0.8.19"
+thiserror = "2.0.4"
+fern = { version = "0.7.0", features = ["colored"] }
+chrono = "0.4.38"
+log = "0.4.22"
+rand = "0.8.5"
+atlas-core = {path = "atlas-core"}
+tokio = {version="1.42.0", features=["full"]}
+solana-sdk = "2.1.4"

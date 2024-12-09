@@ -1,0 +1,59 @@
+# ========================
+# Rust (Cargo) Files
+# ========================
+# Compiled artifacts:
+/target/
+
+# Cargo.lock file (only if you don't want to commit it)
+/Cargo.lock
+
+# Rust build files (optional):
+/Cach/
+
+# ========================
+# Node (npm) Files
+# ========================
+# Dependency directories:
+node_modules/
+
+# npm logs:
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# build directories for npm projects:
+dist/
+build/
+
+# .env files (store sensitive data)
+.env
+
+# ========================
+# IDE and Editor Settings
+# ========================
+# VSCode settings
+.vscode/
+
+# IntelliJ IDEA settings (Rust plugin settings)
+.idea/
+
+# ========================
+# System Files
+# ========================
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# ========================
+# Other potential files to ignore
+# ========================
+# Rust documentation generated files:
+doc/
+
+# Temporary files or logs
+*.log
+
+test-ledger/
